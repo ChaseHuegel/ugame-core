@@ -8,8 +8,8 @@ Excuse the messy prototype for the terrain. The proof of concept is functioning 
 
 The terrain was originally built to read images to map height, colors, tile types (textures), and object placement (trees). It was expanded to make use of noise for all aspects to create procedural terrain. The final implementation will allow the option between both and will include a proper tile based mapping (i.e. voxel terrain or 2D tileset based games) since the current "tile map" is hacky using hard-coded integer IDs. This allows for a dynamic open world with materials and behaviors attached to individual tiles that scales performantly at any world size.
 
-Below is the first prototype using height and color maps to build terrain mesh and collision
-https://user-images.githubusercontent.com/14932139/115452503-832c3b80-a1ec-11eb-893f-53abcf4c8ba1.mp4
+The first prototype using height and color maps to build terrain. Height changes are steps and ramps. I didn't like the look so ended up moved to smooth terrain right away.
+![fa0475db431320ba5595a5118367cad6](https://user-images.githubusercontent.com/14932139/115470998-428cec00-a205-11eb-9bbb-2823f0f24a26.gif)
 
 The 2nd prototype with noise-based generation. I restructured the mesh to look smoother, added textured tiles, added object placement.
 ![fafb5e5afac287f9a82fea0b298fc9fc](https://user-images.githubusercontent.com/14932139/115452524-8a534980-a1ec-11eb-888c-e95b77a34e10.png)
