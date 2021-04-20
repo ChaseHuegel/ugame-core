@@ -1,5 +1,5 @@
 # wayward-core
-Event-driven C# generic core 1st/3rd person Unity games built on my Swordfish library
+Event-driven C# generic core for 1st/3rd person Unity games built on my Swordfish library
 
 Much of this uses Unity specific functions but is built to be as independent as possible so that the core functionality be shifted to other engines/uses with minimal refactoring. Its a work in progress and terrain is the current focus.
 
